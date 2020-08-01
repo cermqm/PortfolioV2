@@ -1,0 +1,95 @@
+.navcenter {
+    text-align: center;
+    margin: auto;
+}
+
+head {
+    display: inline-block;
+    margin-top: 0px;
+}
+
+#headerstyling {
+    color: lightseagreen;
+    text-align: left;
+    border-bottom: 2px solid rgba(188, 188, 208, 0.3);
+}
+
+h2,
+h3 {
+    text-align: center;
+    color: white;
+}
+
+h3 span {
+    display: inline-block;
+    /* background-color: lightseagreen; */
+    color: rgb(37, 37, 189);
+    font-size: 2vw;
+    padding: 15px 15px 15px 15px;
+}
+
+h2 span {
+    display: inline-block;
+    background-color: lightseagreen;
+    padding: 15px 15px 15px 15px;
+}
+
+#borderpad {
+    padding: 0px 15px 15px 15px;
+}
+
+
+/* #head-navbar {
+    width: 100%;
+    white-space: nowrap;
+    display: inline-block;
+    overflow: hidden;
+} */
+
+.nav>li {
+    display: inline-block;
+    width: initial;
+    float: left;
+    white-space: nowrap;
+}
+
+.nav {
+    display: inline-block;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+.navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+
+
+/* Sticky footer css */
+
+
+/* .container {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+} */
+
+.footer {
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+
+/* Sticky footer css */
+
+body {
+    background-image: url("background.jpg");
+    background-size: auto;
+}
