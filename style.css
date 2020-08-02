@@ -31,6 +31,15 @@ h3 span {
     h3 span {
         display: inline-block;
         color: rgb(37, 37, 189);
+        font-size: 5.5vw;
+        padding: 10px 10px 10px 10px;
+    }
+}
+
+@media screen and (min-width: 450px) {
+    h3 span {
+        display: inline-block;
+        color: rgb(37, 37, 189);
         font-size: 4.5vw;
         padding: 10px 10px 10px 10px;
     }
