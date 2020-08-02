@@ -22,7 +22,6 @@ h3 {
 
 h3 span {
     display: inline-block;
-    /* background-color: lightseagreen; */
     color: rgb(37, 37, 189);
     font-size: 2vw;
     padding: 15px 15px 15px 15px;
@@ -31,6 +30,13 @@ h3 span {
 h2 span {
     display: inline-block;
     background-color: lightseagreen;
+    padding: 15px 15px 15px 15px;
+}
+
+h6 span {
+    display: inline-block;
+    color: rgb(37, 37, 189);
+    font-size: 1vw;
     padding: 15px 15px 15px 15px;
 }
 
