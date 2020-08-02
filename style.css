@@ -93,3 +93,7 @@ body {
     background-image: url("background.jpg");
     background-size: auto;
 }
+
+.card-title {
+    text-align: center;
+}
