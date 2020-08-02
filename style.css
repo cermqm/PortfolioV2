@@ -45,7 +45,7 @@ h3 span {
     }
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (min-width: 620px) {
     h3 span {
         display: inline-block;
         color: rgb(37, 37, 189);
@@ -54,7 +54,7 @@ h3 span {
     }
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (min-width: 760px) {
     h3 span {
         display: inline-block;
         color: rgb(37, 37, 189);
