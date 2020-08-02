@@ -27,6 +27,15 @@ h3 span {
     padding: 10px 10px 10px 10px;
 }
 
+@media screen and (max-width: 620px) {
+    h3 span {
+        display: inline-block;
+        color: rgb(37, 37, 189);
+        font-size: 4.5vw;
+        padding: 10px 10px 10px 10px;
+    }
+}
+
 @media screen and (max-width: 760px) {
     h3 span {
         display: inline-block;
@@ -55,6 +64,14 @@ h6 span {
     display: inline-block;
     color: rgb(37, 37, 189);
     font-size: 1.5vw;
+}
+
+@media screen and (max-width: 620px) {
+    h6 span {
+        display: inline-block;
+        color: rgb(37, 37, 189);
+        font-size: 3.5vw;
+    }
 }
 
 @media screen and (max-width: 760px) {
