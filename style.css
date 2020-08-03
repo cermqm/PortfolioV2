@@ -27,7 +27,7 @@ h3 span {
     padding: 10px 10px 10px 10px;
 }
 
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 250px) {
     h3 span {
         display: inline-block;
         color: rgb(37, 37, 189);
@@ -36,25 +36,7 @@ h3 span {
     }
 }
 
-@media screen and (min-width: 450px) {
-    h3 span {
-        display: inline-block;
-        color: rgb(37, 37, 189);
-        font-size: 4.5vw;
-        padding: 10px 10px 10px 10px;
-    }
-}
-
 @media screen and (min-width: 620px) {
-    h3 span {
-        display: inline-block;
-        color: rgb(37, 37, 189);
-        font-size: 4.5vw;
-        padding: 10px 10px 10px 10px;
-    }
-}
-
-@media screen and (min-width: 760px) {
     h3 span {
         display: inline-block;
         color: rgb(37, 37, 189);
@@ -63,25 +45,16 @@ h3 span {
     }
 }
 
-@media screen and (min-width: 785px) {
+@media screen and (min-width: 800px) {
     h3 span {
         display: inline-block;
         color: rgb(37, 37, 189);
-        font-size: 1.75vw;
+        font-size: 2.5vw;
         padding: 10px 10px 10px 10px;
     }
 }
 
-@media screen and (min-width: 885px) {
-    h3 span {
-        display: inline-block;
-        color: rgb(37, 37, 189);
-        font-size: 1.25vw;
-        padding: 10px 10px 10px 10px;
-    }
-}
-
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 980px) {
     h3 span {
         display: inline-block;
         color: rgb(37, 37, 189);
@@ -102,15 +75,15 @@ h6 span {
     font-size: 1.5vw;
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (min-width: 250px) {
     h6 span {
         display: inline-block;
         color: rgb(37, 37, 189);
-        font-size: 3.5vw;
+        font-size: 4vw;
     }
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (min-width: 620px) {
     h6 span {
         display: inline-block;
         color: rgb(37, 37, 189);
@@ -118,7 +91,15 @@ h6 span {
     }
 }
 
-@media screen and (min-width: 761px) {
+@media screen and (min-width: 800px) {
+    h6 span {
+        display: inline-block;
+        color: rgb(37, 37, 189);
+        font-size: 2vw;
+    }
+}
+
+@media screen and (min-width: 980px) {
     h6 span {
         display: inline-block;
         color: rgb(37, 37, 189);
