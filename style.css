@@ -164,7 +164,8 @@ h6 span {
 
 body {
     background-image: url("background.jpg");
-    background-size: auto;
+    background-size: 150% 150%;
+    background-repeat: no-repeat;
 }
 
 .card-title {
